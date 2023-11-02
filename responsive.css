@@ -1,0 +1,37 @@
+/* Mobile styles by default */
+body {
+    font-size: 16px;
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+    body {
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/* Hide on screens less than 768px */
+@media screen and (max-width: 768px) {
+    .hide-on-mobile {
+        display: none;
+    }
+}
